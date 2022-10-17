@@ -64,13 +64,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B6B64D09AC23C3C885209B210AF0C9EE"
+        "OwnerKey" = "8:_288AE64B323541F0AF8B3BCE91920BF5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_288AE64B323541F0AF8B3BCE91920BF5"
+        "OwnerKey" = "8:_B6B64D09AC23C3C885209B210AF0C9EE"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -123,6 +123,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -359,15 +367,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ヤマビコブロック"
-        "ProductCode" = "8:{38F87EC5-1BB9-4089-AD3A-32BBB4A39740}"
-        "PackageCode" = "8:{1CF5BD96-1A5C-4123-969A-AED780107602}"
+        "ProductCode" = "8:{BCA245B7-8B5C-46D4-BCBA-ED6D5D73A4B9}"
+        "PackageCode" = "8:{E471A17F-DFDA-4FE9-977A-E11F2C34F551}"
         "UpgradeCode" = "8:{FC6545D9-CBFC-475D-A857-092CBE9BD03E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.10.16"
+        "ProductVersion" = "8:22.10.17"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -919,7 +927,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_288AE64B323541F0AF8B3BCE91920BF5"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\Yamabiko Block\\obj\\Debug\\Yamabiko Block.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_79EA668051964F3BB63DC55BB310E553"
