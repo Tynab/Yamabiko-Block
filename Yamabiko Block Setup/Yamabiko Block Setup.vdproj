@@ -130,6 +130,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -367,15 +375,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ヤマビコブロック"
-        "ProductCode" = "8:{BCA245B7-8B5C-46D4-BCBA-ED6D5D73A4B9}"
-        "PackageCode" = "8:{E471A17F-DFDA-4FE9-977A-E11F2C34F551}"
+        "ProductCode" = "8:{6AA672C7-0643-4DB5-91CA-8573A7F46F2A}"
+        "PackageCode" = "8:{232D362E-898E-46AB-878E-9B75C34728C0}"
         "UpgradeCode" = "8:{FC6545D9-CBFC-475D-A857-092CBE9BD03E}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:22.10.17"
+        "ProductVersion" = "8:22.10.31"
         "Manufacturer" = "8:YAN"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -927,7 +935,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_288AE64B323541F0AF8B3BCE91920BF5"
             {
-            "SourcePath" = "8:..\\Yamabiko Block\\obj\\Debug\\Yamabiko Block.exe"
+            "SourcePath" = "8:..\\Yamabiko Block\\obj\\Release\\Yamabiko Block.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_79EA668051964F3BB63DC55BB310E553"
