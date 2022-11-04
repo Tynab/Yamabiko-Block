@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4B4EB219-9B98-4DB8-91B4-674B3EEC8064}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Yamabiko_Block.ModuleMain</StartupObject>
+    <StartupObject>Yamabiko_Block.Main</StartupObject>
     <RootNamespace>Yamabiko_Block</RootNamespace>
     <AssemblyName>Yamabiko Block</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -95,7 +95,7 @@
     <Compile Include="Control\FrmUpdate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuleMain.vb" />
+    <Compile Include="Script\Main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
